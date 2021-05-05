@@ -265,6 +265,7 @@ font-size: 50px;
 }
 
 
+/***packages***/
 .packages-desc {
 	display: flex;
 	justify-content: center;
@@ -272,10 +273,10 @@ font-size: 50px;
 }
 
 .package {
-	padding: 3rem 3rem;
+	padding: 0 ;
 	background-color: #f5f5f5;
 	margin: 3rem;
-	
+	padding-bottom: 10px;
 	box-shadow: 5px 10px 8px 10px #888888;
 }
 
@@ -292,6 +293,18 @@ font-size: 50px;
 .package p:hover{
 	color: orange;
 
+}
+.price-head
+{
+	background-color: red;
+	color: white;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
 /**fotter*/
